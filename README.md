@@ -9,9 +9,12 @@ note連載「**3分で学ぶPyTorch**」基礎編の演習ノートブックで�
 
 ## 使い方
 
-1. 下の **Open in Colab** を押す
+1. **演習**列の Open in Colab を押す
 2. ノートブックの `【TASK】` と書かれた箇所を埋める
 3. 上から順に実行する
+
+**解答（ans）は詰まったときだけ見てください。** 読んで分かった気になる部分と、
+自分で書ける部分は別物なので、一度詰まったほうが結局は早く進みます。
 
 環境構築は要りません。書き換えたものを残したいときは、Colab のメニューから
 「ドライブにコピーを保存」を選んでください。
@@ -20,31 +23,31 @@ note連載「**3分で学ぶPyTorch**」基礎編の演習ノートブックで�
 
 ### ① MLP を手で書く — 分類と回帰
 
-| | |
-|---|---|
-| Section 1 | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/akh1r0ck/pytorch-by-hand/blob/main/mlp/01_mlp_sec01_task.ipynb) |
-| Section 2 | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/akh1r0ck/pytorch-by-hand/blob/main/mlp/01_mlp_sec02_task.ipynb) |
+| | 演習 | 解答 |
+|---|---|---|
+| Section 1 | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/akh1r0ck/pytorch-by-hand/blob/main/mlp/01_mlp_sec01_task.ipynb) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/akh1r0ck/pytorch-by-hand/blob/main/mlp/01_mlp_sec01_ans.ipynb) |
+| Section 2 | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/akh1r0ck/pytorch-by-hand/blob/main/mlp/01_mlp_sec02_task.ipynb) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/akh1r0ck/pytorch-by-hand/blob/main/mlp/01_mlp_sec02_ans.ipynb) |
 
 ### ② CNN を手で書く — MNIST から CIFAR-10 へ
 
-| | |
-|---|---|
-| Section 1 | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/akh1r0ck/pytorch-by-hand/blob/main/cnn/02_cnn_sec01_task.ipynb) |
-| Section 2 | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/akh1r0ck/pytorch-by-hand/blob/main/cnn/02_cnn_sec02_task.ipynb) |
+| | 演習 | 解答 |
+|---|---|---|
+| Section 1 | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/akh1r0ck/pytorch-by-hand/blob/main/cnn/02_cnn_sec01_task.ipynb) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/akh1r0ck/pytorch-by-hand/blob/main/cnn/02_cnn_sec01_ans.ipynb) |
+| Section 2 | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/akh1r0ck/pytorch-by-hand/blob/main/cnn/02_cnn_sec02_task.ipynb) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/akh1r0ck/pytorch-by-hand/blob/main/cnn/02_cnn_sec02_ans.ipynb) |
 
 ### ③ RNN を手で書く — 気温予測と時系列分類
 
-| | |
-|---|---|
-| Section 1 | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/akh1r0ck/pytorch-by-hand/blob/main/rnn/03_rnn_sec01_task.ipynb) |
-| Section 2 | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/akh1r0ck/pytorch-by-hand/blob/main/rnn/03_rnn_sec02_task.ipynb) |
+| | 演習 | 解答 |
+|---|---|---|
+| Section 1 | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/akh1r0ck/pytorch-by-hand/blob/main/rnn/03_rnn_sec01_task.ipynb) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/akh1r0ck/pytorch-by-hand/blob/main/rnn/03_rnn_sec01_ans.ipynb) |
+| Section 2 | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/akh1r0ck/pytorch-by-hand/blob/main/rnn/03_rnn_sec02_task.ipynb) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/akh1r0ck/pytorch-by-hand/blob/main/rnn/03_rnn_sec02_ans.ipynb) |
 
 ### ④ 自然言語処理を手で書く — 文章生成と文章分類
 
-| | |
-|---|---|
-| Section 1 | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/akh1r0ck/pytorch-by-hand/blob/main/nlp/04_nlp_sec01_task.ipynb) |
-| Section 2 | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/akh1r0ck/pytorch-by-hand/blob/main/nlp/04_nlp_sec02_task.ipynb) |
+| | 演習 | 解答 |
+|---|---|---|
+| Section 1 | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/akh1r0ck/pytorch-by-hand/blob/main/nlp/04_nlp_sec01_task.ipynb) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/akh1r0ck/pytorch-by-hand/blob/main/nlp/04_nlp_sec01_ans.ipynb) |
+| Section 2 | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/akh1r0ck/pytorch-by-hand/blob/main/nlp/04_nlp_sec02_task.ipynb) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/akh1r0ck/pytorch-by-hand/blob/main/nlp/04_nlp_sec02_ans.ipynb) |
 
 ## 動作環境
 
